@@ -1,4 +1,4 @@
-// Package reverse implements some functions to edit strings.
+// Package strrvrs implements some functions to edit strings.
 package strrvrs
 
 //Reverse provides way to reverse string
