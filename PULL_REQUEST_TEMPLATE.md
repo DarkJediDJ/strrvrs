@@ -3,5 +3,5 @@
 - [x] No error nor warning in the console.
 ## New functionality:
 * Added Tests for function Reverse
-* Added fucntion Reverse
+* Added function Reverse
 * README modified 
