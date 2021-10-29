@@ -17,6 +17,7 @@ package main
 
 import (
     "fmt"
+    "github.com/DarkJediDJ/strrvrs"
 )
     
 func main() {
@@ -32,6 +33,7 @@ package main
 
 import (
     "fmt"
+    "github.com/DarkJediDJ/strrvrs"
 )
 
 func main() {
