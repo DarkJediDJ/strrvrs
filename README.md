@@ -28,7 +28,8 @@ func main() {
 ```
 Char counter:
 ```go
-package main                                                                                                                                                                     
+package main
+
 import (
     "fmt"
 )
