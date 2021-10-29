@@ -13,28 +13,29 @@ This module provides 2 functions:
 
 String reverse:
  ```go 
-       package main
-       import ( 
-       "fmt"
-     "github.com/DarkJediDJ/strrvrs"
-       )
-          func main() {  
-              str := reverse.Reverse("Some text")
-       fmt.Println(str)
-       // Output:
-       // txet emoS
-       }
+package main
+
+import (
+    "fmt"
+)
+    
+func main() {
+    str := reverse.Reverse("Some text")
+    fmt.Println(str)
+    // Output:
+    // txet emoS
+}
 ```
 Char counter:
 ```go
-       package main
-       import ( 
-       "fmt"
-     "github.com/DarkJediDJ/strrvrs"
-       )
-          func main() {  
-              n := reverse.Calculator("Example")
-       fmt.Println(n)
-       // Output:
-       // 7
-       }
+package main                                                                                                                                                                     
+import (
+    "fmt"
+)
+
+func main() {
+    n := reverse.Calculator("Example")
+    fmt.Println(n)
+    // Output:
+    // 7
+}
