@@ -12,7 +12,7 @@ This module provides 2 functions:
 ### Examples
 
 String reverse:
-  
+ ```go 
        package main
        import ( 
        "fmt"
@@ -24,9 +24,9 @@ String reverse:
        // Output:
        // txet emoS
        }
-
+```
 Char counter:
-
+```go
        package main
        import ( 
        "fmt"
@@ -38,3 +38,4 @@ Char counter:
        // Output:
        // 7
        }
+       ```
