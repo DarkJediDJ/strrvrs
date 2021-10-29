@@ -38,4 +38,3 @@ Char counter:
        // Output:
        // 7
        }
-       ```
