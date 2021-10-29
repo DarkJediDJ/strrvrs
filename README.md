@@ -21,7 +21,7 @@ import (
 )
     
 func main() {
-    str := reverse.Reverse("Some text")
+    str := strrvrs.Reverse("Some text")
     fmt.Println(str)
     // Output:
     // txet emoS
@@ -37,7 +37,7 @@ import (
 )
 
 func main() {
-    n := reverse.Calculator("Example")
+    n := strrvrs.Calculator("Example")
     fmt.Println(n)
     // Output:
     // 7
