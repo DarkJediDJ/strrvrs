@@ -1,19 +1,40 @@
 # String reverse + char counter golang module.
 This module provides 2 functions:
-
+    
 * string reverse
-
+* char counter
+    
 ## Usage
-
+    
 * import github.com/DarkJediDJ/reverse
 * call required function
-
+   
 ### Examples
 
-Usage of function Reverse:
+String reverse:
+  
+       package main
+       import ( 
+       "fmt"
+     "github.com/DarkJediDJ/strrvrs"
+       )
+          func main() {  
+              str := reverse.Reverse("Some text")
+       fmt.Println(str)
+       // Output:
+       // txet emoS
+       }
 
-`reverse.Reverse("Some text")`
+Char counter:
 
-=>`"txet emoS"`
-
-
+       package main
+       import ( 
+       "fmt"
+     "github.com/DarkJediDJ/strrvrs"
+       )
+          func main() {  
+              n := reverse.Calculator("Example")
+       fmt.Println(n)
+       // Output:
+       // 7
+       }
