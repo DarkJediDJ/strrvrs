@@ -5,3 +5,5 @@
 * Added Tests for function Reverse
 * Added function Reverse
 * README modified 
+* Added Tests for function Calculator
+* Added function Calculator
